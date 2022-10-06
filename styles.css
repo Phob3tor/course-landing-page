@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Okine";
+    src: url("fonts/MADEOkineSansPERSONALUSE-Regular.otf");
+}
+
+@font-face {
+    font-family: "Okine_2";
+    src: url("fonts/MADEOkineSansPERSONALUSE-RegularOutline.otf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url("img/bg.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Okine";
+    height: 100%;
+    width: 100%;
+}
+
+
+
+h1 {
+    font-size: 3.5rem;
+    color: #d9e37e;
+    font-family: "Okine_2";
+    text-shadow: rgb(36, 34, 3) 0px 0px 4px;
+    user-select: none;
+}
+
+hr {
+    margin: 10px auto;
+    color: #eddb16;
+    border: 2px solid #eddb16;
+    max-width: 65px;
+    opacity: 0.3;  
+}
+
+.buffer {
+    height: 15rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #022834;
+    border: 3px solid white;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    border: 3px solid #d9e37e;
+    color: #d9e37e;
+}
+
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+         
+ 
